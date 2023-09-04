@@ -22,23 +22,8 @@ img {
     padding-right: 3px;
 }
 
-Hamburger {
-    justify-content: right;
-}
-
-.hamburger {
-    display: block;
-    width: 100%;
-    justify-content: right;
-    color: black;
-}
-
 nav a {
     display:block;
     padding: 15px 2%;
     text-decoration: none;
-}
-
-.hamburger a:hover {
-    background-color: #5af075;
 }

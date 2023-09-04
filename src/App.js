@@ -1,14 +1,18 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Navbar.js";
+import Navbar from "./components/Navbar.js";
+import { Routes, Route } from "react-router-dom";
+import { Home, About, Products } from "./components/pages";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <div className="container">
-        <h1>Welcome to Jane's Trading</h1>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/products" element={<Products />} />
+      </Routes>
     </div>
   );
 }
