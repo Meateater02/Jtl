@@ -67,7 +67,7 @@ nav .hamburger {
     justify-content: space-between;
     width: 2.25rem;
     height: 2rem;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
 }
 
 nav .hamburger span {
