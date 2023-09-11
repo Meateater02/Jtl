@@ -1,7 +1,5 @@
-.navigation {
+nav {
     display: flex;
-    width: 100%;
-    height: 3.5rem;
     align-items: center;
     background-color: #d0f0d6;
     box-shadow: 0 2px 2px 2px rgba(73, 114, 97, 0.23);
@@ -9,45 +7,50 @@
     top: 0%;
 }
 
-.brand {
-    align-items: center;
-    flex-direction: row;
+.company-name {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+nav ul {
     display: flex;
 }
 
-.brand-name {
-    color: black;
-    font-size: 1.5rem;
-    /* width: 10.8rem; */
-    /* display: inline-block; */
-    white-space: nowrap;
+nav ul li {
+    display: block;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+nav ul li a {
+    display: block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
 }
 
 img {
-    object-fit: contain;
+    position: relative;
     height: 2.3rem;
-    /* display:block; */
-    padding-right: 0.5rem;
-}
-
-nav a {
-    display: block;
-    padding: 0.5rem;
-    margin: 0.5rem;
-    border-radius: 0.5rem;
-    text-decoration: none;
 }
 
 .active {
     background-color: rgba(43, 235, 117, 0.815);
 }
 
+nav ul li a:not(.active):hover {
+    background-color: rgba(143, 245, 182, 0.979);
+}
+
 nav .hamburger {
     display: none;
-    /* position: absolute; */
-    padding: 0.5rem;
-    /* top: 0.75rem; */
-    /* right: 0.5rem; */
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
     flex-direction: column;
     justify-content: space-between;
     width: 2.25rem;
@@ -66,16 +69,28 @@ nav .hamburger span {
         display: flex;
     }
 
-    nav a:not(.brand-name) {
-        /* display: none; */
+    nav {
         flex-direction: column;
         align-items: start;
-        width: 100%;
     }
 
-    .navigation {
+    nav ul {
+        display: none;
         flex-direction: column;
-        align-items: start;
         width: 100%;
+        margin-bottom: 0.25rem;
     }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        margin: 0.2rem 0.5rem;
+    }
+
+    nav ul.open {
+        display: flex;
+    } 
 }
