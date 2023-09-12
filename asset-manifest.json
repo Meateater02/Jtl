@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Meateater02/Jtl.git/static/css/main.f03a2e51.css",
-    "main.js": "/Meateater02/Jtl.git/static/js/main.8bd0a4ed.js",
-    "static/js/787.0813b880.chunk.js": "/Meateater02/Jtl.git/static/js/787.0813b880.chunk.js",
-    "static/media/Logo_Transparent.png": "/Meateater02/Jtl.git/static/media/Logo_Transparent.ff3cad3ea1fa55549992.png",
-    "index.html": "/Meateater02/Jtl.git/index.html",
-    "main.f03a2e51.css.map": "/Meateater02/Jtl.git/static/css/main.f03a2e51.css.map",
-    "main.8bd0a4ed.js.map": "/Meateater02/Jtl.git/static/js/main.8bd0a4ed.js.map",
-    "787.0813b880.chunk.js.map": "/Meateater02/Jtl.git/static/js/787.0813b880.chunk.js.map"
+    "main.css": "/Jtl/static/css/main.f03a2e51.css",
+    "main.js": "/Jtl/static/js/main.f79b00be.js",
+    "static/js/787.0813b880.chunk.js": "/Jtl/static/js/787.0813b880.chunk.js",
+    "static/media/Logo_Transparent.png": "/Jtl/static/media/Logo_Transparent.ff3cad3ea1fa55549992.png",
+    "index.html": "/Jtl/index.html",
+    "main.f03a2e51.css.map": "/Jtl/static/css/main.f03a2e51.css.map",
+    "main.f79b00be.js.map": "/Jtl/static/js/main.f79b00be.js.map",
+    "787.0813b880.chunk.js.map": "/Jtl/static/js/787.0813b880.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f03a2e51.css",
-    "static/js/main.8bd0a4ed.js"
+    "static/js/main.f79b00be.js"
   ]
 }
